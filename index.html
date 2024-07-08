@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>whethar</title>
+</head>
+<body>
+    <h2>Whethar Data</h2>
+    <div class="contenar">
+            <div class="content">
+                <div class="input">
+                    <div class="ipt">
+                        <input id="location" type="text" placeholder="Enter City Name"> 
+                    </div>
+                    <div class="enter">
+                        <button><img src="search-icon.svg" alt=""></button>
+                    </div>
+                </div>
+
+                <div class="er">
+                    <p id="error">Please Enter Valid Input</p>
+                </div>
+
+                <div class="description val">
+                    <p id="city">Location = ...</p>
+                </div>
+                <div class="wetharTable val">
+                    <table >
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Value</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Temperature</td>
+                            <td id="tem">---</td>
+                        </tr>
+                        <tr>
+                            <td>Humidity</td>
+                            <td id="Humidity">---</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed</td>
+                            <td id="ws">---</td>
+                        </tr>
+                        <tr>
+                            <td>Visibility</td>
+                            <td id="vbt">---</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="description val">
+                    <p id="disc">...</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <script src="weathr.js"></script>
+</body>
+</html>
+<div class="whethar-img">
